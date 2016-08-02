@@ -1,0 +1,31 @@
+{
+  "name": "tpa-rob-element",
+  "version": "0.0.1",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "tpa-rob-element",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "tpa-rob-element.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/ING-Group/tpa-seed/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "tpa-icons": "ING-Group/tpa-icons",
+    "tpa-styles": "ING-Group/tpa-styles",
+    "tpa-i18n": "ING-group/tpa-i18n",
+    "iron-signals": "PolymerElements/iron-signals#^1.0.3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
+  }
+}
